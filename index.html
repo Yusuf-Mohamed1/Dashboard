@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h1 class="p-relative txt-c mt-0">Yusuf <span>Mohamed</span></h1>
+        <ul>
+          <li>
+            <a
+              class="active d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="index.html"
+            >
+              <i class="fas fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="profile.html"
+            >
+              <i class="fas fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="Project.html"
+            >
+              <i class="fas fa-project-diagram fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="courses.html"
+            >
+              <i class="fas fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="friends.html"
+            >
+              <i class="fas fa-user-circle fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="file.html"
+            >
+              <i class="fas fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="plan.html"
+            >
+              <i class="fas fa-calendar-alt fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 p-10 rad-6 c-black"
+              href="settings.html"
+            >
+              <i class="fas fa-cogs fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <header class="header bg-white p-15 flex">
+          <div class="search p-relative">
+            <i class="fas fa-search"></i>
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons d-flex">
+            <span class="notification p-relative d-flex align-center">
+              <i class="fas fa-bell fa-lg"></i>
+              <img src="images/personal.jpg" alt="Yusuf" />
+            </span>
+          </div>
+        </header>
+        <h1 class="title p-relative">Dashboard</h1>
+        <div class="wrapper d-grid gap-20">
+          <div class="welcome rad-10 txt-c-mobile block-mobile bg-white">
+            <div class="welcome-head">
+              <div class="welcome-head-title">
+                <h1 class="welcome-head-h1">Welcome</h1>
+                <h2 class="welcome-head-h2">Yusuf</h2>
+              </div>
+              <img
+                class="welcome-head-img"
+                src="images/welcome.png"
+                alt="Welcome"
+              />
+            </div>
+            <!-- <div class="welcome-content block-mobile"> -->
+            <img
+              class="personal"
+              src="images/personal.jpg"
+              alt="Yusuf Mohamed"
+            />
+            <div class="welcome-content-skills">
+              <div class="welcome-content-skills-name">
+                <h1 class="m-0">Yusuf Mohamed</h1>
+                <h3>Developer</h3>
+              </div>
+              <div class="welcome-content-skills-project">
+                <h1>20</h1>
+                <h3>Projects</h3>
+              </div>
+              <div class="welcome-content-skills-money">
+                <h1>$10000</h1>
+                <h3>Earned</h3>
+              </div>
+            </div>
+            <a class="btn-shape" href="profile.html">Profile</a>
+          </div>
+          <div class="quick bg-white p-20 rad-10">
+            <h1 class="m-0">Quick Draft</h1>
+            <h2 class="fs-18">Write A Draft For Your Ideas</h2>
+            <form action="">
+              <input class="input_text" type="text" placeholder="Title" />
+              <textarea name="" id="" placeholder="Your Thought"></textarea>
+              <input
+                type="submit"
+                value="Save"
+                class="btn-shape input_submit"
+              />
+            </form>
+          </div>
+          <div class="target bg-white p-20 rad-10">
+            <h1 class="m-0">Yearly Targets</h1>
+            <h2 class="fs-18">Targets Of The Year</h2>
+            <div class="cards">
+              <div class="card">
+                <i class="fas fa-dollar-sign blue"></i>
+                <div class="card_title">
+                  <h2 class="m-0">Money</h2>
+                  <span class="mt-5 d-block">$20.000</span>
+                  <div class="progress blue">
+                    <span class="bg-blue" style="width: 90%"
+                      ><span class="bg-blue">90%</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-code orange"></i>
+                <div class="card_title">
+                  <h2 class="m-0">Projects</h2>
+                  <span class="mt-5 d-block">20</span>
+                  <div class="progress orange">
+                    <span class="bg-orange" style="width: 80%">
+                      <span class="bg-orange">80%</span></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-user green"></i>
+                <div class="card_title">
+                  <h2 class="m-0">Team</h2>
+                  <span class="mt-5 d-block">8</span>
+                  <div class="progress green">
+                    <span class="bg-green" style="width: 75%">
+                      <span class="bg-green">75%</span></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tickets bg-white p-20 rad-10">
+            <h1 class="m-0">Tickets Statistics</h1>
+            <h2>Everything About Support Tickets</h2>
+            <div class="boxes">
+              <div class="box">
+                <i class="far fa-list-alt list"></i>
+                <span>2500</span>
+                <h2 class="m-0">Total</h2>
+              </div>
+              <div class="box">
+                <i class="fas fa-spinner spinner"></i>
+                <span>500</span>
+                <h2 class="m-0">Pending</h2>
+              </div>
+              <div class="box">
+                <i class="far fa-check-circle circle"></i>
+                <span>1900</span>
+                <h2 class="m-0">Closed</h2>
+              </div>
+              <div class="box">
+                <i class="far fa-times-circle times"></i>
+                <span>100</span>
+                <h2 class="m-0">Deleted</h2>
+              </div>
+            </div>
+          </div>
+          <div class="latest bg-white p-20 rad-10">
+            <h1 class="m-0">Latest News</h1>
+            <div class="Latest-boxs">
+              <div class="Latest-box">
+                <img src="images/news-01.png" alt="" />
+                <div class="Latest-box-content">
+                  <h1 class="m-0">Craeted SASS Section</h1>
+                  <h2>New SASS Examples & Tutorials</h2>
+                </div>
+                <span>3 Days Ago</span>
+              </div>
+              <div class="Latest-box">
+                <img src="images/news-02.png" alt="" />
+                <div class="Latest-box-content">
+                  <h1 class="m-0">Changed The Design</h1>
+                  <h2>A Brand New Website Design</h2>
+                </div>
+                <span>5 Days Ago</span>
+              </div>
+              <div class="Latest-box">
+                <img src="images/news-03.png" alt="" />
+                <div class="Latest-box-content">
+                  <h1 class="m-0">Team Increased</h1>
+                  <h2>3 Developer Joined The Team</h2>
+                </div>
+                <span>7 Days Ago</span>
+              </div>
+              <div class="Latest-box">
+                <img src="images/news-04.png" alt="" />
+                <div class="Latest-box-content">
+                  <h1 class="m-0">Add Payment Gateway</h1>
+                  <h2>Many New Payment Gateways Added</h2>
+                </div>
+                <span>9 Days Ago</span>
+              </div>
+            </div>
+          </div>
+          <div class="tasks bg-white p-20 rad-10">
+            <h1 class="m-0">Latest Tasks</h1>
+            <div class="tasks_boxs">
+              <div class="tasks_box">
+                <div class="tasks_box_content">
+                  <h1 class="m-0">Record One New Video</h1>
+                  <h2>Record Python Create Exe Project</h2>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+              </div>
+              <div class="tasks_box">
+                <div class="tasks_box_content">
+                  <h1 class="m-0">Write Article</h1>
+                  <h2>Write Low Level vs High Level Language</h2>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+              </div>
+              <div class="tasks_box">
+                <div class="tasks_box_content">
+                  <h1 class="m-0">Finish Project</h1>
+                  <h2>Publish Academy Programming Project</h2>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+              </div>
+              <div class="tasks_box hide">
+                <div class="tasks_box_content">
+                  <h1 class="m-0 done">Attend The Meeting</h1>
+                  <h2 class="done">
+                    Attend The Project Business Analysis Meeting
+                  </h2>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+              </div>
+              <div class="tasks_box">
+                <div class="tasks_box_content">
+                  <h1 class="m-0">Finsih Lesson</h1>
+                  <h2>Finsih Teaching Flex Box</h2>
+                </div>
+                <i class="fas fa-trash-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="top bg-white p-20 rad-10">
+            <h1 class="m-0">Top Search Items</h1>
+            <div class="top-title">
+              <h2>Keyword</h2>
+              <h2>Search Count</h2>
+            </div>
+            <div class="top_content">
+              <div class="left">
+                <ul>
+                  <li>Programming</li>
+                  <li>Javascript</li>
+                  <li>PHP</li>
+                  <li>Code</li>
+                  <li>Design</li>
+                  <li>Logic</li>
+                </ul>
+              </div>
+              <div class="right">
+                <ul>
+                  <li>220</li>
+                  <li>180</li>
+                  <li>160</li>
+                  <li>145</li>
+                  <li>110</li>
+                  <li>95</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="uploads bg-white p-20 rad-10">
+            <h1 class="m-0">Latest Uploads</h1>
+            <div class="uploads_content">
+              <div class="uploads_content_text">
+                <img src="images/pdf.svg" alt="PDF" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-File.pdf</h1>
+                    <span>Yusuf</span>
+                  </div>
+                  <span class="size">2.9mb</span>
+                </div>
+              </div>
+              <div class="uploads_content_text">
+                <img src="images/avi.svg" alt="AVI" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-Video-File.avi</h1>
+                    <span>Admin</span>
+                  </div>
+                  <span class="size">4.9mb</span>
+                </div>
+              </div>
+
+              <div class="uploads_content_text">
+                <img src="images/psd.svg" alt="PSD" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-Psd-File.pdf</h1>
+                    <span>Yusuf</span>
+                  </div>
+                  <span class="size">4.5mb</span>
+                </div>
+              </div>
+
+              <div class="uploads_content_text">
+                <img src="images/zip.svg" alt="ZIP" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-Zip-File.pdf</h1>
+                    <span>User</span>
+                  </div>
+                  <span class="size">8.9mb</span>
+                </div>
+              </div>
+
+              <div class="uploads_content_text">
+                <img src="images/dll.svg" alt="DLL" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-DLL-File.pdf</h1>
+                    <span>Admin</span>
+                  </div>
+                  <span class="size">4.9mb</span>
+                </div>
+              </div>
+
+              <div class="uploads_content_text">
+                <img src="images/eps.svg" alt="EPS" />
+                <div class="uploads_content_text_top">
+                  <div class="uploads_content_text_title">
+                    <h1 class="m-0">My-EPS-File.pdf</h1>
+                    <span>Designer</span>
+                  </div>
+                  <span class="size">8.9mb</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project bg-white p-20 rad-10">
+            <h1 class="m-0">Latest Project Progress</h1>
+            <ul class="m-0">
+              <li class="c-blue">Got The Project</li>
+              <li class="c-blue">Started The Project</li>
+              <li class="c-blue">The Project About To Finish</li>
+              <li class="current">Test The Project</li>
+              <li>Finish The Project & Get Money</li>
+            </ul>
+            <img src="images/project.png" alt="Projct" />
+          </div>
+          <div class="Reminders bg-white p-20 rad-10">
+            <h1 class="m-0">Reminders</h1>
+            <ul>
+              <li class="li-blue">
+                <h3 class="m-0">Check My Tasks List</h3>
+                <span>28/09/2023 - 12:00am</span>
+              </li>
+              <li class="li-green">
+                <h3 class="m-0">Check My Projects</h3>
+                <span>26/10/2023 - 12:00am</span>
+              </li>
+              <li class="li-orange">
+                <h3 class="m-0">Call All My Clients</h3>
+                <span>05/11/2023 - 12:00am</span>
+              </li>
+              <li class="li-red">
+                <h3 class="m-0">Finish The Development Workshop</h3>
+                <span>5/3/2024 - 12:00am</span>
+              </li>
+            </ul>
+          </div>
+          <div class="post bg-white p-20 rad-10">
+            <h1 class="m-0">Latest Post</h1>
+            <div class="post_conetnt">
+              <div class="post_conetnt_head">
+                <img src="images/personal.jpg" alt="Yusuf Mohamed" />
+                <div class="post_conetnt_head_title">
+                  <h1 class="m-0">Yusuf Mohamed</h1>
+                  <h2 class="m-0">About 3 Hours Ago</h2>
+                </div>
+              </div>
+              <div class="post_conetnt_text">
+                You can fool all of the people some of the time, and some of the
+                people all of the time, but you can't fool all of the people all
+                of the time.
+              </div>
+              <div class="post_conetnt_react">
+                <div class="post_conetnt_react_heart">
+                  <i class="far fa-heart"></i>
+                  <span>1.8k</span>
+                </div>
+                <div class="post_conetnt_react_comment">
+                  <i class="far fa-comments"></i>
+                  <span>500</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="media bg-white p-20 rad-10">
+            <h1 class="m-0">Socail Media States</h1>
+            <div class="media_content">
+              <div class="media_content_box face p-15">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <h3 class="m-0">2M Like</h3>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100056832194385&locale=ar_AR"
+                  class="btn-shape"
+                  target="_blank"
+                  >Like</a
+                >
+              </div>
+              <div class="media_content_box git p-15">
+                <i class="fab fa-github fa-2x"></i>
+                <h3 class="m-0">15k Followers</h3>
+                <a
+                  href="https://github.com/Yusuf-Mohamed1"
+                  class="btn-shape"
+                  target="_blank"
+                  >Follow</a
+                >
+              </div>
+              <div class="media_content_box youtube p-15">
+                <i class="fab fa-youtube fa-2x"></i>
+                <h3 class="m-0">90k Subs</h3>
+                <a
+                  href="https://www.youtube.com/channel/UCW3eTwEX8I41u-6lWe0fViQ"
+                  target="_blank"
+                  class="btn-shape"
+                  >Subscribe</a
+                >
+              </div>
+              <div class="media_content_box linked p-15">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+                <h3 class="m-0">20k Followers</h3>
+                <a
+                  href="https://www.linkedin.com/in/yusuf-mohamed-bb19362a1/"
+                  target="_blank"
+                  class="btn-shape"
+                  >Follow</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project_last bg-white p-20 rad-10">
+            <h1 class="m-0">Projects</h1>
+            <div class="responsive-table">
+              <table class="w-full">
+                <thead>
+                  <tr>
+                    <td>Name</td>
+                    <td>Finish Date</td>
+                    <td>Client</td>
+                    <td>Price</td>
+                    <td>Team</td>
+                    <td>Status</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ministry Wikipedia</td>
+                    <td>10 May 2023</td>
+                    <td>Ministry</td>
+                    <td>$5300</td>
+                    <td>
+                      <img src="images/team-01.png" alt="" />
+                      <img src="images/team-02.png" alt="" />
+                      <img src="images/team-03.png" alt="" />
+                      <img src="images/team-04.png" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-orange c-white btn-shape"
+                        >Pending</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Yusuf Website</td>
+                    <td>12 Oct 2024</td>
+                    <td>Yusuf Mohamed</td>
+                    <td>$1500</td>
+                    <td>
+                      <img src="images/team-01.png" alt="" />
+                      <img src="images/team-02.png" alt="" />
+                      <img src="images/personal.jpg" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-blue c-white btn-shape"
+                        >In Progress</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Bouba App</td>
+                    <td>05 sep 2023</td>
+                    <td>Bouba</td>
+                    <td>$800</td>
+                    <td>
+                      <img src="images/team-01.png" alt="" />
+                      <img src="images/team-02.png" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-green c-white btn-shape"
+                        >Completed</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Yusuf Profile</td>
+                    <td>22 May 2023</td>
+                    <td>Yusuf</td>
+                    <td>$600</td>
+                    <td>
+                      <img src="images/team-03.png" alt="" />
+                      <img src="images/personal.jpg" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-green c-white btn-shape"
+                        >Completed</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Salem Website</td>
+                    <td>24 May 2023</td>
+                    <td>Salem</td>
+                    <td>$300</td>
+                    <td>
+                      <img src="images/team-01.png" alt="" />
+                      <img src="images/team-04.png" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-orange c-white btn-shape"
+                        >Rejected</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>Quran Application</td>
+                    <td>01 Mar 2024</td>
+                    <td>Yusuf</td>
+                    <td>$5300</td>
+                    <td>
+                      <img src="images/team-01.png" alt="" />
+                      <img src="images/team-02.png" alt="" />
+                      <img src="images/team-03.png" alt="" />
+                      <img src="images/personal.jpg" alt="" />
+                    </td>
+                    <td>
+                      <span class="label bg-orange c-white btn-shape"
+                        >Completed</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

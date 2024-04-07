@@ -1,0 +1,113 @@
+/* Start-box */
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.d-block {
+  display: block;
+}
+/* End-box */
+
+/* Start-padding + margin */
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.m-0 {
+  margin: 0;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+/* End-box */
+
+/* Start-color */
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-white {
+  background-color: white;
+}
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+/* End-color */
+
+/* Start-postion */
+.p-relative {
+  position: relative;
+}
+/* End-postion */
+/* Start-Font */
+.txt-c {
+  text-align: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+/* End-Font */
+/* Start-width */
+.w-full {
+  width: 100%;
+}
+/* End-width */
+/* Start-grid */
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* End-grid */
+/* Start-component */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+/* End-component */
+
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .block-mobile {
+    display: block;
+  }
+}
